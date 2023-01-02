@@ -1,0 +1,709 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyN7pVt1Eg1LnCzQyO1Y0xor",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/PailaMuraliMadhav/Python/blob/main/class\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ESvB5obxqSWk",
+        "outputId": "adecc529-9182-4601-fafa-40ddac7e84c5"
+      },
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "0.16286646681167627"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 1
+        }
+      ],
+      "source": [
+        "#random\n",
+        "import random\n",
+        "random.random()\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "mKcWU6Xk_ewq"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#slicing\n",
+        "b= \"murali madhav\"\n",
+        "print(b[:8])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BnGWSeyGqyPk",
+        "outputId": "4ae10f31-1cc5-49dc-9626-38935306c7ab"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "murali m\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#slicing\n",
+        "b= \"_murali madhav\"\n",
+        "print(b[0:4])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7BT29a0ascoK",
+        "outputId": "1d82790b-aa28-48a6-dd11-630394c493c6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "_mur\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#slicing\n",
+        "b= \"murali madhav\"\n",
+        "print(b[10])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0r7sbUDXsnb9",
+        "outputId": "6eeb23ee-862f-4ff9-d07d-508bdd046da1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "h\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#lOWER\n",
+        "c=\"MURALI\"\n",
+        "print(c.lower())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7mGz0zJdsu_d",
+        "outputId": "15109d08-bb26-4993-d549-cf21455e6332"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "murali\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#UPPER\n",
+        "b=\"murali\"\n",
+        "print(b.upper())"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4dpThEldtQR6",
+        "outputId": "8440abfa-d11a-47b5-f19a-c7ccb43b1d15"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "MURALI\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#replace\n",
+        "b='murali'\n",
+        "print(b.replace('l',\"i\"))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QJe-GQIQtfVU",
+        "outputId": "b71a386a-639f-4502-bb53-57cb30566b52"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "muraii\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        " #concatination\n",
+        " x= \"sasi\"\n",
+        "y=\"kapoor\"\n",
+        "sum=x+\"\"+y\n",
+        "print (sum)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wc8y7_8MuYzY",
+        "outputId": "7cc6f93c-ef69-494e-fd3a-faa8e2279f08"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "sasikapoor\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "SgeEN3ZMvLIH"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#concatination\n",
+        "x= \"sasi\"\n",
+        "y=\"kapoor\"\n",
+        "sum=x+\" \"+y\n",
+        "print (sum)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hWLQY9imu--D",
+        "outputId": "14f2ce98-0d4a-4cb5-edf6-ade2cf27d965"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "sasi kapoor\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#\n",
+        "txt= \"hi my name is \\\"Murali\\\" and i am from AP\"\n",
+        "print (txt)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ualIPsFwvNPb",
+        "outputId": "85090332-3415-4c37-f723-d0df551f0713"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "hi my name is \"Murali\" and i am from AP\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a=25\n",
+        "print(f\"my age is {a}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "m14AFwnf_ihD",
+        "outputId": "f470b78f-349f-4bc1-8418-b37044ef72a2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "my age is 25\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#lists\n",
+        "fruits=['apple','watermelon','grapes',2]\n",
+        "print(fruits)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8RHYUWOnB8N6",
+        "outputId": "9778e978-d274-4221-f75c-bbf292c17804"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['apple', 'watermelon', 'grapes', 2]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#length\n",
+        "fruits=['apple','watermelon','grapes',2]\n",
+        "print(fruits)\n",
+        "print(len(fruits))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "C9gXXKvGC0-M",
+        "outputId": "b981638f-45d2-45d8-eea8-9efc12a08e34"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['apple', 'watermelon', 'grapes', 2]\n",
+            "4\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#length\n",
+        "fruits=['apple','watermelon','grapes',2]\n",
+        "print(fruits)\n",
+        "print(len(fruits))\n",
+        "print(type(fruits))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lfFiIvsyDC21",
+        "outputId": "a2b82302-49ee-454a-a6e9-8600fcab5aab"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['apple', 'watermelon', 'grapes', 2]\n",
+            "4\n",
+            "<class 'list'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#length\n",
+        "fruits=['apple','watermelon','grapes',2]\n",
+        "print(fruits)\n",
+        "print(len(fruits))\n",
+        "print(fruits[:4])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XG_-l3zLDqsx",
+        "outputId": "dea7ae18-97f0-4cb6-c5d0-ac7fd6cce343"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['apple', 'watermelon', 'grapes', 2]\n",
+            "4\n",
+            "['apple', 'watermelon', 'grapes', 2]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#loop,while loop\n",
+        "i=1\n",
+        "while i<10:\n",
+        "  print(i)\n",
+        "  i = i+1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Q8Uow8PREbhv",
+        "outputId": "be175047-bdb7-4426-84ca-5ea16a3b8ca9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n",
+            "6\n",
+            "7\n",
+            "8\n",
+            "9\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#break keyword\n",
+        "i = 1\n",
+        "while i < 8:\n",
+        " print(i)\n",
+        " if i == 3:\n",
+        "  break \n",
+        " i = i + 1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "avjx7FRhI0Kd",
+        "outputId": "c2ed0eee-fabb-483a-d24e-aef307ba7111"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#break keyword\n",
+        "i = 1\n",
+        "while i < 8:\n",
+        " print(i)\n",
+        " if i == 8:\n",
+        "  break \n",
+        " i = i + 1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "X6kL8rCZL9Xt",
+        "outputId": "d38b82e9-d7fd-4a02-b5da-3039553c5b68"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n",
+            "6\n",
+            "7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Rock paper&scissors\n",
+        "import random\n",
+        "print(\"welcometo the game\")\n",
+        "uC =input(\"enter either rock or paper or scissor\")\n",
+        "cC =[\"rock\",\"paper\",\"scissor\"]\n",
+        "cS =random.choice(cC)\n",
+        "print(cS)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kBwNW1JDMnyr",
+        "outputId": "f1dc559e-d97e-48b8-c431-b11190488fad"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "welcometo the game\n",
+            "enter either rock or paper or scissorrock\n",
+            "paper\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Rock paper&scissors\n",
+        "import random\n",
+        "print(\"welcometo the game\")\n",
+        "uC =input(\"enter either sasi or murali or vivek\")\n",
+        "cC =[\"sasi\",\"murali\",\"vivek\"]\n",
+        "cS =random.choice(cC)\n",
+        "print(cS)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "FtD_WN-ZS0dA",
+        "outputId": "22e16b10-2cf2-4535-b6ea-4095272a05d0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "welcometo the game\n",
+            "enter either sasi or murali or viveksasi\n",
+            "sasi\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Rock paper&scissors\n",
+        "import random\n",
+        "print(\"welcometo the game\")\n",
+        "uC =input(\"enter either rock or paper or scissor\")\n",
+        "cC =[\"rock\",\"paper\",\"scissor\"]\n",
+        "cS =random.choice(cC)\n",
+        "print(f\"/n user choice is {uC} and computer choice is {cS}\\n\")\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OgZLr5nnRkn0",
+        "outputId": "80909803-f3d4-4ae9-8c79-8b06fb07d8ae"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "welcometo the game\n",
+            "enter either rock or paper or scissorscissor\n",
+            "/n user choice is scissor and computer choice is scissor\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Rock paper&scissors\n",
+        "import random\n",
+        "print(\"welcometo the game\")\n",
+        "uC =input(\"enter either rock or paper or scissor\")\n",
+        "cC =[\"rock\",\"paper\",\"scissor\"]\n",
+        "cS =random.choice(cC)\n",
+        "print(f\"/n user choice is {uC} and computer choice is {cS}\\n\")\n",
+        "if uC== \"rock\" and cS==\"paper\":\n",
+        "  print(\"you lost\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qPgVPVJ_Tb1a",
+        "outputId": "cdbdc5f1-ce49-4354-e745-4c8e6f1d9f04"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "welcometo the game\n",
+            "enter either rock or paper or scissorrrr\n",
+            "/n user choice is rrr and computer choice is rock\n",
+            "\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Rock paper&scissors\n",
+        "import random\n",
+        "print(\"welcometo the game\")\n",
+        "uC =input(\"enter either rock or paper or scissor\")\n",
+        "cC =[\"rock\",\"paper\",\"scissor\"]\n",
+        "cS =random.choice(cC)\n",
+        "print(f\"/n user choice is {uC} and computer choice is {cS}\\n\")\n",
+        "if uC== \"rock\" and cS==\"paper\":\n",
+        "  print(\"you lost\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WNe04wZSVatG",
+        "outputId": "c54d9206-7c57-421a-b19d-e2fa95b8674d"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "welcometo the game\n",
+            "enter either rock or paper or scissorrock\n",
+            "/n user choice is rock and computer choice is rock\n",
+            "\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
